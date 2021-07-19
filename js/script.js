@@ -14,5 +14,5 @@ form.addEventListener("submit", (e) => {
 
   let content = document.getElementById("content")
 
-  content.innerHTML = "<p>Carregando</p>"
+  content.innerHTML = "<p class='text'>Nome e Email cadastrados</p>"
 })

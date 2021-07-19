@@ -38,8 +38,32 @@ input {
   border-radius: 4px;
 }
 
-p {
+.text {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.product-h {
   background-color: white;
-  padding: 10px;
-  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product-title {
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  align-items: center;
+}
+
+.product-div {
+  display:flex;
+  background-color: white;
+  padding: 5px;
+  align-content: space-between;
+  margin: 15px
 }
